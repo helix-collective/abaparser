@@ -13,8 +13,9 @@ $ python abaparser.py < path/to/FILE.ABA
 `
 
 The output will be something like this
-`
+
+```
 Contractors
 012-327	293353749	John Doe	Contractor Payment	1220.00
 082-406	598209320	Jane Doe	Contractor Payment	6600.00
-`
+```

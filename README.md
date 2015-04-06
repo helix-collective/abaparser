@@ -7,9 +7,19 @@ This script serves currently serves 2 purposes
  1. A python library to parse ABA files.
  2. A basic command line report of all the debit transactions in the ABA file (I use this to sanity check payments out of Xero)
 
+## Install ##
+
+I'd recommend just checking out the git repo (it's a small python file). However,
+it is all pip compatible so the usual
+```
+$ virtual pyenv
+$ source pyenv/bin/activate
+$ pip install abaparser
+```
+
 ## Usage ##
 `
-$ python abaparser.py < path/to/FILE.ABA
+$ python -m abaparser < path/to/FILE.ABA
 `
 
 The output will be something like this
